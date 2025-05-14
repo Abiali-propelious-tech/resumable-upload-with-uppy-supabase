@@ -37,7 +37,7 @@ function App() {
       data: { user },
       error,
     } = await supabase.auth.signInWithPassword({
-      email: "luckybelt79@gmail.com",
+      email: "abiali.doctor@propelius.tech",
       password: "@newPassword123",
     });
   }, []);
